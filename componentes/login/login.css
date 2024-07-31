@@ -75,7 +75,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px; /* Espacio adecuado debajo del remember me */
+    margin-bottom: 20px; 
 }
 
 .remember-me {
@@ -84,7 +84,7 @@ body {
 }
 
 .remember-me input {
-    display: none; /* Oculta el checkbox */
+    display: none; 
 }
 
 .remember-me label {
@@ -96,7 +96,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 20px; /* Espacio entre los botones y la sección de términos y condiciones */
+    margin-bottom: 20px; 
 }
 
 .buttons .login,
