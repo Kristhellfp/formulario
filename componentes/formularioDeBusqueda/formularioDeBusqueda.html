@@ -9,6 +9,27 @@
     <link rel="stylesheet" href="../../config/config.css">
     <link rel="stylesheet" href="formularioDeBusqueda.css">
 
+    <div class="contenedor-formulario">
+        <h1>Formulario de Búsqueda</h1>
+        <form action="/submit" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="identificacion">Identificación:</label>
+            <input type="text" id="identificacion" name="identificacion" required>
+
+            <div class="lado-derecho">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+
+
+            <button type="submit" class="boton-enviar">Buscar</button>
+        </form>
+    </div>
+
 
 
 <script src="formularioDeBusqueda.js"></script>
